@@ -1,0 +1,14 @@
+Pacman Cheatsheet
+=================
+
+pacman -S <Paket>  - Installiert das angegebene Paket
+pacman -Sy         - Aktualisiert die Repositories
+pacman -Syu        - Aktualisiert die Repositories und führt ein System-Update durch
+pacman -Su         - Aktualisiert alle Pakete ohne vorherige Repository-Aktualisierung
+pacman -U <Datei>  - Installiert ein Paket aus einer Datei (auch URL-Angabe möglich)
+pacman -R <Paket>  - Deinstalliert ein Paket
+pacman -Q          - Listet alle installierten Pakete auf
+pacman -Ql         - Listet alle Dateien aller installierten Pakete auf
+pacman -Ql <Paket> - Listet alle Dateien des angegebenen Pakets auf
+pacman -Qo <Pfad>  - Gibt aus, in welchem Paket die Datei/der Ordner <Pfad> enthalten ist
+pacman -Qm         - Listet alle Pakete auf, die mit makepkg erstellt wurden (z.B. AUR)
